@@ -1,9 +1,4 @@
-//
-//  ViewController.swift
-//  connectVC
-//
-//  Created by 채나연 on 4/19/24.
-//
+
 
 import UIKit
 
@@ -14,6 +9,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func goToNext(_ sender: UIButton) {
+        performSegue(withIdentifier: "vcSegue", sender: nil)
+    }
+    
 }
 
