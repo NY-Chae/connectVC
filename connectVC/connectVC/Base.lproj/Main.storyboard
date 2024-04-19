@@ -16,51 +16,116 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EI4-NQ-h8q">
-                                <rect key="frame" x="103" y="335" width="187" height="56"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EI4-NQ-h8q">
+                                <rect key="frame" x="103" y="335" width="187" height="53.333333333333314"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="go to next"/>
-                                <buttonConfiguration key="configuration" style="plain">
+                                <state key="normal" title="go to next">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="go to next">
+                                        <fragment content="go">
                                             <attributes>
-                                                <color key="NSColor" red="0.014537693298969034" green="0.014537693298969034" blue="0.014537693298969034" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="36" name="10X10"/>
+                                                <color key="NSColor" red="0.047338112113402109" green="0.021177887429689606" blue="0.015634207688426435" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="37" name="ArialMT"/>
+                                                <font key="NSOriginalFont" size="36" name="AppleColorEmoji"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content=" ">
+                                            <attributes>
+                                                <color key="NSColor" red="0.047338112113402109" green="0.021177887429689606" blue="0.015634207688426435" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="37" name="ArialMT"/>
                                                 <font key="NSOriginalFont" size="12" name="Helvetica"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
-                                    </attributedString>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="goToNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ytX-24-uQi"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P0A-0V-Y09">
-                                <rect key="frame" x="70" y="484" width="253" height="70"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="tap to plus">
+                                        <fragment content="to">
                                             <attributes>
-                                                <color key="NSColor" red="1" green="0.09040891841453913" blue="0.83786492702186943" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="48" name="10X10"/>
+                                                <color key="NSColor" red="0.047338112113402109" green="0.021177887429689606" blue="0.015634207688426435" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="37" name="ArialMT"/>
+                                                <font key="NSOriginalFont" size="36" name="AppleColorEmoji"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content=" ">
+                                            <attributes>
+                                                <color key="NSColor" red="0.047338112113402109" green="0.021177887429689606" blue="0.015634207688426435" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="37" name="ArialMT"/>
+                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="next">
+                                            <attributes>
+                                                <color key="NSColor" red="0.047338112113402109" green="0.021177887429689606" blue="0.015634207688426435" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="37" name="ArialMT"/>
+                                                <font key="NSOriginalFont" size="36" name="AppleColorEmoji"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                </buttonConfiguration>
+                                </state>
+                                <connections>
+                                    <action selector="goToNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ytX-24-uQi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P0A-0V-Y09">
+                                <rect key="frame" x="70" y="483.66666666666669" width="253" height="70.333333333333314"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="tap">
+                                            <attributes>
+                                                <color key="NSColor" red="0.90113182959026239" green="0.039814927135942924" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="48" name="AppleGothic"/>
+                                                <font key="NSOriginalFont" size="48" name="AlNile"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content=" ">
+                                            <attributes>
+                                                <color key="NSColor" red="0.90113182959026239" green="0.039814927135942924" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="48" name="AppleGothic"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="to">
+                                            <attributes>
+                                                <color key="NSColor" red="0.90113182959026239" green="0.039814927135942924" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="48" name="AppleGothic"/>
+                                                <font key="NSOriginalFont" size="48" name="AlNile"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content=" ">
+                                            <attributes>
+                                                <color key="NSColor" red="0.90113182959026239" green="0.039814927135942924" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="48" name="AppleGothic"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="plus">
+                                            <attributes>
+                                                <color key="NSColor" red="0.90113182959026239" green="0.039814927135942924" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="48" name="AppleGothic"/>
+                                                <font key="NSOriginalFont" size="48" name="AlNile"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="tapToPlus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N1Z-Fk-eqp"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="P0A-0V-Y09" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="71" id="Ght-Ja-7FV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="P0A-0V-Y09" secondAttribute="bottom" constant="264" id="2NY-Q7-hrd"/>
                             <constraint firstItem="EI4-NQ-h8q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="103" id="JCf-lv-HXM"/>
+                            <constraint firstItem="P0A-0V-Y09" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="OVV-0N-k0a"/>
                             <constraint firstItem="EI4-NQ-h8q" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="276" id="Whs-l5-as7"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="P0A-0V-Y09" secondAttribute="trailing" constant="69" id="gmf-k9-VOB"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="P0A-0V-Y09" secondAttribute="bottom" constant="260" id="sxc-Kl-gYz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EI4-NQ-h8q" secondAttribute="trailing" constant="103" id="tkw-82-NMW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="P0A-0V-Y09" secondAttribute="trailing" constant="70" id="uAD-qN-5U8"/>
                         </constraints>
                     </view>
                     <connections>
@@ -103,6 +168,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="M5e-A4-VoR"/>
+                    <connections>
+                        <outlet property="numberLabel" destination="Pie-Ie-ykH" id="bcj-Rz-NvB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pw9-zD-fNR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
